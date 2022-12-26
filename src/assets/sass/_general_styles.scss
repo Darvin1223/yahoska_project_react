@@ -1,0 +1,113 @@
+/* This is the defauld settings */
+*,*::after,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+};
+
+/* This is the fonts */
+@font-face{
+    font-family: "CaviarDreams";
+    src: url("../fonts/CaviarDreams.ttf");
+    src: url("../fonts/CaviarDreams_Bold.ttf");
+    src: url("../fonts/CaviarDreams_BoldItalic.ttf");
+    src: url("../fonts/CaviarDreams_Italic.ttf");
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "Revolution Brush";
+    src: url("../fonts/Revolution_Brush_Font.ttf");
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+/* Variables */
+$primary-color: #DB6F7D;
+$second-color: #6887AC;
+$primary-font: "CaviarDreams";
+$second-font: "Revolution Brush";
+
+/* General */
+
+body{
+    font-family: $primary-font;
+}
+
+img{
+    width: 100%;
+}
+
+/* Utilities */
+
+a{
+    text-decoration: none;
+    font-size: bold;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    background-color: $second-color;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+/* Header */
+// .header{
+//     width: 100%;
+//     background-color: $primary-color;
+//     border-bottom: solid #fff 0.5px;
+//     .header_bar{
+//         display: flex;
+//         .header_bar__img{
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             img{
+//                 width: 40%;
+//                 padding: 11px 0;
+//             }
+//         }
+//         .header_bar__social_media{
+//             display: none;
+//         }
+//         .navegation{
+//             display: flex;
+//             flex-direction: column;
+//            background-color: #fff;
+//            width: 50%;
+//            position: absolute;
+//            top: 9%;
+//            left: -100%;
+//            border-radius: 0 0 5% 0;
+//            border: solid 0.5px $primary-color;
+//            a{
+//                 text-align: center;
+//                 padding-bottom: 10px;
+//                 &:first-child{
+//                     padding-top: 10px;
+//                 }
+//                 &:hover{
+//                     cursor: pointer;
+//                 }
+//             }
+            
+//         }
+//     }
+// }
+
+// /* Hero */
+// .hero{
+//     .hero_hero{
+//         display: none;
+//     }
+// }

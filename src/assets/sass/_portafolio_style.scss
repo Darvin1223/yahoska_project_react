@@ -1,0 +1,21 @@
+main.container {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    .gallery--title{
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    .gallery_container {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+      .gallery--img {
+        max-width: 300px;
+        padding: 1rem;
+      }
+    }
+  }
+}
